@@ -2,6 +2,10 @@
 ## Devlogs
 ### W1
 Write your W1 activity Devlog here.
+    
+    When you separate the camera from the cat, it no longer follows the cat. This happens because the camera is fixed in one spot. When it is attached to the cat it moves with the cat.
+
+    Game Link: https://bluemani56397.itch.io/kit-kat-game
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
