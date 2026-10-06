@@ -10,6 +10,14 @@ Write your W1 activity Devlog here.
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 
+1. The rgb variables are floats because rgb values can by any number from 0 to 255 including decimals. Int wouldn't work because ints are only whole numbers, string wouldn't work because, rgb values are numerical values not text, and bools wouldn't work because rgb values aren't true or false.
+
+
+2. The _bounce variable is an int because you can only have a whole number of bounces. You can't have 0.1 of a bounce. Every bounce is one full bounce.
+
+
+3. The error message told me that it couldn't convert a double to float value without a cast. That means that data types aren't naturally compatible with each other and have to be concatenated if you want to convert one type to another.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
