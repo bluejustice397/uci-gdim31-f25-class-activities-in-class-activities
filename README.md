@@ -18,6 +18,28 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 
 3. The error message told me that it couldn't convert a double to float value without a cast. That means that data types aren't naturally compatible with each other and have to be concatenated if you want to convert one type to another.
 
+### W3
+1. The input (Friendship Level) could be an int or a Float.
+    The flag (knowsSecret) is a bool.
+    Output is a string.
+
+
+2. The input (Sanity) is a float because sanity can be represented by a decimal.
+    The output is void because the method doesn't have an output.
+
+
+3. The output is a (bool)
+    The input is time which is a float
+
+4. Components = Game chars
+    Class = Spells
+    Member Variables = Spell Stats
+    Methods = Status Effects
+
+5. I was not able to get to the step that makes the balls bounce and change color, but I would assume its because the balls change color in correlation to the speed of the ball. The faster the ball moves the faster the color changes, causing it to get super bright.
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

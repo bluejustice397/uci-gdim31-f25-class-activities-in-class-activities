@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
@@ -22,7 +23,7 @@ public class CatW3 : MonoBehaviour
     private float _health;
 
     // ------------------------------------------------------------------------
-    private void Start ()
+    private void Start()
     {
         _health = _maxHealth;
     }
@@ -95,6 +96,14 @@ public class CatW3 : MonoBehaviour
             // Below this comment, CALL the method named DecreaseHealth.
             // Notice this method's return type is void- that means we don't
             //      have to store the result anywhere.
+
+            DecreaseHealth(); 
+            
+    
+                
+    
+    
+             
             
 
             // STEP 2 ---------------------------------------------------------
@@ -129,6 +138,14 @@ public class CatW3 : MonoBehaviour
     private void DecreaseHealth()
     {
         // write Step 3 below this comment!
+
+
+        _health -= 1;
+        TMP_Text _healthText = " health = " + (_health);
+        
+
+
+
 
 
         // STEP 5 -------------------------------------------------------------
