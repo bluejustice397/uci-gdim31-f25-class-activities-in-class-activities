@@ -1,14 +1,12 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
     
     When you separate the camera from the cat, it no longer follows the cat. This happens because the camera is fixed in one spot. When it is attached to the cat it moves with the cat.
 
     Game Link: https://bluemani56397.itch.io/kit-kat-game
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 
 1. The rgb variables are floats because rgb values can by any number from 0 to 255 including decimals. Int wouldn't work because ints are only whole numbers, string wouldn't work because, rgb values are numerical values not text, and bools wouldn't work because rgb values aren't true or false.
 
@@ -39,6 +37,12 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 5. I was not able to get to the step that makes the balls bounce and change color, but I would assume its because the balls change color in correlation to the speed of the ball. The faster the ball moves the faster the color changes, causing it to get super bright.
 
 
+### W4
+1. We figured out the Cat and the Ball need a rigidbody so physics can be applied to them and the goal needs Is Trigger on so it can detect whether or not something has passed through it.
+
+
+2. In the beginning I had an issue where my cat would get stuck spinning infinitely. To fix this I had to freeze the cats rotation in the constraints section of the collider component. And when I wrote the method to track the time passed in between each goal. I had a bug where the time kept looping the same number, and after looking over my code I realized that I had assigned the variable that represents time passed to Time.deltaTime instead of adding Time.deltaTime. After I fixed that mistake the timeText updated correctly. 
+ 
 
 ## Open-Source Assets
 ### W1

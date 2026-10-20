@@ -140,8 +140,7 @@ public class CatW3 : MonoBehaviour
         // write Step 3 below this comment!
 
 
-        _health -= 1;
-        TMP_Text _healthText = " health = " + (_health);
+        //TMP_Text _healthText = " health = " + (_health);
         
 
 
