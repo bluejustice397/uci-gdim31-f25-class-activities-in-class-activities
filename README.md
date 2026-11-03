@@ -42,6 +42,12 @@
 
 
 2. In the beginning I had an issue where my cat would get stuck spinning infinitely. To fix this I had to freeze the cats rotation in the constraints section of the collider component. And when I wrote the method to track the time passed in between each goal. I had a bug where the time kept looping the same number, and after looking over my code I realized that I had assigned the variable that represents time passed to Time.deltaTime instead of adding Time.deltaTime. After I fixed that mistake the timeText updated correctly. 
+
+### W5/6
+1. The member variables we need are move speed and the cat’s position
+Some methods we need are Start() and Update()
+These methods should be able to set the deer’s position at the beginning. We also need to get the position of the cat. 
+
  
 
 ## Open-Source Assets
