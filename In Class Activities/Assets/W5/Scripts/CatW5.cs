@@ -1,4 +1,6 @@
+using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class CatW5 : MonoBehaviour
 {
@@ -31,21 +33,70 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
-        //
-        // STEP 2
-        // After Step 1 is working, add more code to make it possible to flip
-        //      the player's control scheme.
-        // The _flipWSControls member variable, which we can change in the Inspector,
-        //      determines if our controls should be flipped.
-        // If _flipWSControls is true, interpret the value of translation as the
-        //      OPPOSITE value, so that W moves the player backwards and S moves
-        //      them forwards.
-        //
-        // MULTIPLY one of your vectors with a certain value to do this. >:)
 
-        Vector3 translation = Vector3.zero;
+        if (_flipWSControls == true)
+        {
+            if (Input.GetKey(KeyCode.W))
+            {
+
+                transform.position += (Vector3.forward * Time.deltaTime) * -1;
+
+            }
+
+            else if (Input.GetKey(KeyCode.S))
+            {
+
+                transform.position += (Vector3.back * Time.deltaTime) * -1;
+
+            }
+
+
+        }
+
+         
         
 
+            if (Input.GetKey(KeyCode.W))
+            {
+
+
+
+                transform.position += Vector3.forward * Time.deltaTime;
+
+
+            }
+
+                
+                
+
+  
+            
+
+            else if (Input.GetKey(KeyCode.S))
+            {
+
+                transform.position += Vector3.back * Time.deltaTime;
+
+
+
+            }
+
+        
+            //
+            // STEP 2
+            // After Step 1 is working, add more code to make it possible to flip
+            //      the player's control scheme.
+            // The _flipWSControls member variable, which we can change in the Inspector,
+            //      determines if our controls should be flipped.
+            // If _flipWSControls is true, interpret the value of translation as the
+            //      OPPOSITE value, so that W moves the player backwards and S moves
+            //      them forwards.
+            //
+            // MULTIPLY one of your vectors with a certain value to do this. >:)
+
+            Vector3 translation = Vector3.zero;
+        
+       
 
         // STEP 1 & 2 ---------------------------------------------------------
 

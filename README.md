@@ -45,8 +45,8 @@
 
 ### W5/6
 1. The member variables we need are move speed and the cat’s position
-Some methods we need are Start() and Update()
-These methods should be able to set the deer’s position at the beginning. We also need to get the position of the cat. 
+2. Some methods we need are Start() and Update()
+3. These methods should be able to set the deer’s position at the beginning. We also need to get the position of the cat. 
 
  
 
