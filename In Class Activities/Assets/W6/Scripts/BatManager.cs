@@ -12,7 +12,7 @@ public class BatManager : MonoBehaviour
     // STEP 1 -----------------------------------------------------------------
     // Add a member variable named "_bats" that's an array of BatW6 Components.
     // In the Inspector, add ALL of the bats in the Scene.
-    
+    [SerializeField] private BatW6[] _bats 
     // STEP 1 -----------------------------------------------------------------
 
     // STEP 3 -----------------------------------------------------------------
@@ -48,7 +48,7 @@ public class BatManager : MonoBehaviour
         // STEP 7 -------------------------------------------------------------
         // Loop through all of the entries in _newTextTimers, and increase each
         //      timer's value by the amount of time that passed this frame.
-        
+
 
         // STEP 7 -------------------------------------------------------------
 
@@ -68,8 +68,13 @@ public class BatManager : MonoBehaviour
         // Also inside this for loop, if the distance between the bat and the
         //      player is less than _overlapDistance, call CreateReactions()
         //      and pass the bat in as an argument.
-        
 
+        for (int = 0; int i_bats.length; i++)
+        {
+            if (Vector3.Distance(_bats[i].
+            _bats[i].stopChasing;
+
+        }
 
         // STEP 2 -------------------------------------------------------------
 

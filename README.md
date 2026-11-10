@@ -48,6 +48,12 @@
 2. Some methods we need are Start() and Update()
 3. These methods should be able to set the deer’s position at the beginning. We also need to get the position of the cat. 
 
+
+### W7
+1. Member variables: movespd, player transform
+2. Methods: Update, Start and Stop Chasing 
+3. These methods should take the players position and either move towards the cats position when in range or stop chasing once the cat is out of range
+
  
 
 ## Open-Source Assets
